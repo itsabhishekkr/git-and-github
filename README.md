@@ -8,14 +8,10 @@
 <br>
 `git config user.email "your.email@example.com"`
 ## Verify the Change
-`git config --global --list`
-
-`git config --list`
-
-`git config user.name`
-
-`git config user.email`
-
+`git config --global --list`<br>
+`git config --list`<br>
+`git config user.name`<br>
+`git config user.email`<br>
 ## for push all code 
 `git init`<br>
 `git add README.md`<br>
