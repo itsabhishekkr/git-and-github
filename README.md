@@ -21,14 +21,20 @@
 `git add README.md`<br>
 `git commit -m "first commit"`<br>
 `git branch -M main`<br>
-`git remote add origin https://github.com/MagicalMe2025/soft-engg`<br>
+`git remote add origin https://github.com/itsabhishekkr/soft-engg`<br>
 `git remote -v` check the remote path <br>
 `git push -u origin main`<br>
 ## for clone from other repo
-git clone https://github.com/MagicalMe2025/soft-engg.git`<br>
-`git remote add origin https://github.com/MagicalMe2025/soft-engg`<br>
+`git clone https://github.com/itsabhishekkr/soft-engg.git`<br>
+`git remote add origin https://github.com/itsabhishekkr/soft-engg`<br>
 `git branch -M main`<br>
 `git push -u origin main`<br>
 
-## fetch other member push code 
-git 
+## Fetch changes from remote
+`git fetch origin`<br>
+## Pull (fetch + merge)
+`git pull origin main`<br>
+`git pull --rebase`<br>
+
+## force push
+`git push origin main --force`<br>
