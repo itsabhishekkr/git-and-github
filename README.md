@@ -26,7 +26,8 @@
 `git push -u origin main`<br>
 ## for clone from other repo
 `git clone https://github.com/itsabhishekkr/soft-engg.git`<br>
-`git remote add origin https://github.com/itsabhishekkr/soft-engg`<br>
+`git remote -v` check the remote path <br>
+`git status`
 `git branch -M main`<br>
 `git push -u origin main`<br>
 
